@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple calculator using HTML CSS JS</title>
+  <link rel="stylesheet" href="basic.css" type="text/css"/>
+</head>
+<body>
+  
+ 
+  <div>
+    <h2> SIMPLE CALCULATOR</h2>
+    <br>
+  <input type="text" placeholder="number1" id="num1"/>
+  <br><br>
+  <input type="text" placeholder="number2" id="num2"/>
+  <br><br>
+  <button class="button" id="add">
+    +
+  </button>
+  
+  <button class="button" id="sub">
+    -
+  </button>
+
+  <button class="button" id="mul">
+    *
+  </button>
+  <button class="button" id="div">
+    /
+  </button>
+  <br>
+  <input type="number" readonly id="result"/>
+  <br><br><br>
+</div>
+<br><br>
+<div class="container"><br>
+  <button onclick="changeColors()" >Click Here </button>
+</div><br>
+<br>
+<h3>Click here button to change BackgroundColor</h3> 
+
+<script>
+  let index = 0;
+  function changeColors() {
+    var colors = ["red", "blue", "green", "yellow", "purple"];
+    document.getElementsByTagName("body")[0].style.backgroundColor = colors[index++];
+    if (index > colors.length - 1) index = 0;
+  }
+</script>
+
+<script src="basic.js">
+
+  
+</script>
+  
+</body>
+</html>
