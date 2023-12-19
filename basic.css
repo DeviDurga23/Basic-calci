@@ -11,13 +11,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size:16px;
 }
 
 div {
   text-align: center;
   justify-content: center;
-  
-}
+   max-width: 350px; 
+  width: 80%;
+  margin: 0 auto;
+ }
 
 div h2 {
   letter-spacing: 3px;
@@ -28,13 +31,12 @@ div input[type=number] {
   margin: 8px 0;
   padding: 8px;
   width: 100%;
-  font-size: 16px;
 }
 
 .button {
   margin: 0 4px;
   padding: 6px 0;
-  width: 62px;
+  width: 20%;
   border: 1px solid #000;
   font-size: 16px;
   background-color: rgb(108, 110, 87);
@@ -48,10 +50,7 @@ div input[type=number] {
   position: fixed;
   bottom: 200px;
   left: 37%;
-  transform: translateX(80%);
-  border-radius: 10%;
-  box-sizing: border-box;
-  padding: 1px;
+  transform: translateX(-50%);
 }
 
 .container button {
@@ -61,14 +60,23 @@ div input[type=number] {
   border-radius: 5px;
   transform: translateX(5px);
   margin-top: 50%;
+  bottom: 20%;
 }
   h3 {  
-  margin-top: 100px;  
-  position:absolute; 
-  padding: auto;
-  bottom: 245px;  
-  width: 100%; 
+   margin-top: 10%; 
+  position: absolute;
+  bottom: 28%; 
+  width: 100%;
   align-items: center;
   justify-content: center;
-  display: flex; 
+  display: flex
  }
+@media screen and (max-width: 600px) {
+  body {
+  font-size: 12px;
+  }
+  .button {
+    width: 20%; 
+  }
+}
+      
