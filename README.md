@@ -1,37 +1,21 @@
-**Simple Calculator**
-<hr>
+**A simple Calculator for general purposes.**
 
-#A simple Calculator for general purposes.
-  
-<hr>
-  
-##Why use it?
-Its useful for simple calculations.
+**Why use it?**  
+Its useful for simple arithmetic calculations.
 
-<hr>
+**Features**  
+- Add
+- Multiply
+- Subtract
+- Divide
 
-###Features
+**Built With**  
+- html
+- css
+- javascript
 
-Add
-Multiply
-Subtract
-Divide
+**How to Run?**  
+To run my application, you simply need to clone the project and run the HTML file.
 
-<hr>
-
-###Built With
-
-html
-css
-javascript
-
-<hr>
-
-###How to Run?
-
-To run my application you simply need to clone the project and run the html file.
-
-<hr>
-
-###screenshot
+**Screenshot**  
 ![simple calci screenshot](https://github.com/DeviDurga23/Basic-calci/assets/153984136/099bcd92-cf35-4580-b784-82ffc5b129f1)
