@@ -19,8 +19,8 @@ document.getElementById("div").addEventListener("click",function(){
   res.value=parseInt(n1.value)/parseInt(n2.value);
 });
 
-document.getElementById("ad").addEventListener("click",function(){
-  res.value=parseInt(n1.value)+parseInt(n2.value);
-});
+// document.getElementById("ad").addEventListener("click",function(){
+//   res.value=parseInt(n1.value)+parseInt(n2.value);
+// });
 
 
